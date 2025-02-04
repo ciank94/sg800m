@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sg800m"
+version = "0.1.0"
+description = ""
+authors = ["Cian Kelly <cianrkelly23@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.9,<3.12.4"
+numpy = "<2.0.0,>=1.23.0"
+matplotlib = "^3.10.0"
+xarray = "^2024.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
