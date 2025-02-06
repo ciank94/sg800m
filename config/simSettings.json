@@ -1,44 +1,15 @@
 {
-    "switches": {
-      "remote": false,
-      "test": true,
-      "feed_beh": true,
-      "dvm_beh": false,
-      "temp_beh": false,
-      "bio_mapping": false,
-      "light_mapping": false
-    },
-    "time_settings": {
-      "year": 2017,
-      "month": 2,
-      "day": 1,
-      "duration_days": 50,
-      "time_step_minutes": 240,
-      "save_step_hours": 4
-    },
-    "ibm_settings": {
-      "n": 1600,
-      "N": 1,
-      "x_min": 210.0,
-      "x_max": 610.4,
-      "y_min": 210.0,
-      "y_max": 610.5
-    },
-    "file_explorer": {
-      "remote_server": "idun",
-      "experiment_tag": "test",
-      "samples_prefix": "samplesNSEW_",
-      "sg_folder_name": "sg800_krill/",
-      "samples_folder_name": "sg_phys_states/",
-      "trajectory_folder_name": "trajectory/",
-      "local": {
-        "local_dir_prefix": "C:/Users/ciank/PycharmProjects/sinmod/",
-        "saga_dir_prefix": "A:/Cian_sinmod/",
-        "idun_dir_prefix": "D:/"
-      },
-      "remote": {
-        "saga_dir_prefix": "/cluster/projects/nn9828k/Cian_sinmod/",
-        "idun_dir_prefix": "/cluster/work/ciank/"
-      }
-    }
-  }
+    "feed_beh": false,
+    "year": 2017,
+    "month": 2,
+    "day": 1,
+    "duration_days": 50,
+    "time_step_minutes": 240,
+    "save_step_hours": 4,
+    "n": 1600,
+    "N": 1,
+    "x_min": 210.0,
+    "x_max": 610.4,
+    "y_min": 210.0,
+    "y_max": 610.5
+}
